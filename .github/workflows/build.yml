@@ -31,7 +31,7 @@ jobs:
           - aarch64_cortex-a53 
         sdk:
           - 24.10.4
-          - 20.02
+          - 21.02
 
     steps:
       - uses: actions/checkout@v4
