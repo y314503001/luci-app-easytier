@@ -31,9 +31,8 @@ jobs:
           - aarch64_cortex-a53 
         sdk:
           - 24.10.4
-          - 21.02
-
-    steps:
+          
+   steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
